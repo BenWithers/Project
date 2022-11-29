@@ -1,0 +1,16 @@
+import json
+
+def login(usr):
+    uN = input("enter your username , if new user enter new username: ")
+    pW = input("enter your password , if new user enter new password: ")
+    if uN or pW is not "":
+        pass
+    else:
+        print("Invalid username or password")
+        return
+        
+ NewuN = input("Please enter your new username")
+ NewpW = input("Please enter your new password")
+ 
+ NewuN = uN
+ NewpW = pW 
